@@ -1,0 +1,73 @@
+/* All comon css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding: 0;
+    line-height: .8;
+}
+/* All comon css start */
+
+.overly{
+    padding: 250px 0;
+    background: rgba(0, 0, 0, 0.795);
+}
+.sliders{
+    background: url(../images/oneeee.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+.two{
+    background: url(../images/two.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+.three{
+    background: url(../images/three.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+.four{
+    background: url(../images/four.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.prev{
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9999;
+}
+.next{
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+  
+}
